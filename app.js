@@ -39,7 +39,7 @@ winningMessage.classList.remove("show-winning-message");
 
 const endGame = (isDraw) => {
   if (isDraw) {
-    winningMessageTextElement.innerText = "A Véia e o Véio empataram :( ";
+    winningMessageTextElement.innerText = "A VÉIA E O VÉIO EMPATARAM :( ";
   } else {
     winningMessageTextElement.innerText = isCircleTurn
       ? "O VÉIO VENCEU!!!"
